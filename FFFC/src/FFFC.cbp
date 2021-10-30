@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FFFC" />
+		<Option platforms="Windows;" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="bin/FFFC" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectCompilerOptionsRelation="0" />
+				<Option projectLinkerOptionsRelation="0" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-w" />
+					<Add option="-std=c++14" />
+					<Add option="-m64" />
+					<Add option="-DSFML_STATIC" />
+					<Add option="-DFREEGLUT_STATIC" />
+					<Add option="-DGLEW_STATIC" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add option="-m64" />
+					<Add option="-Wl,-u,vfscanf -lscanf_flt -lm" />
+				</Linker>
+			</Target>
+			<Target title="Debug">
+				<Option platforms="Windows;" />
+				<Option output="../bin/FFFC_DEBUG" prefix_auto="1" extension_auto="1" />
+				<Option working_dir=".." />
+				<Option object_output="../../obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectLinkerOptionsRelation="0" />
+				<Compiler>
+					<Add option="-march=corei7" />
+					<Add option="-w" />
+					<Add option="-std=c++14" />
+					<Add option="-m64" />
+					<Add option="-Og" />
+					<Add option="-g" />
+					<Add option="-DSFML_STATIC" />
+				</Compiler>
+				<Linker>
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add option="-m64" />
+					<Add option="-Wl,-u,vfscanf -lscanf_flt -lm" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-O3" />
+			<Add option="-w" />
+			<Add option="-std=c++14" />
+			<Add option="-m64" />
+			<Add option="-U__STRICT_ANSI__" />
+			<Add option="-DSFML_STATIC" />
+			<Add option="-DFREEGLUT_STATIC" />
+			<Add option="-DGLEW_STATIC" />
+			<Add directory="F:/FFFC/" />
+		</Compiler>
+		<Linker>
+			<Add option="-m64" />
+			<Add option="-static-libgcc -static-libstdc++" />
+			<Add option="-fstack-protector" />
+			<Add option="-Wl,-u,vfscanf  -lm" />
+			<Add library="lib/libsfml-graphics-s.a" />
+			<Add library="lib/libsfml-window-s.a" />
+			<Add library="lib/libsfml-audio-s.a" />
+			<Add library="lib/libsfml-system-s.a" />
+			<Add library="lib/libsfml-network-s.a" />
+			<Add library="lib/libsfml-main.a" />
+			<Add library="lib/libopengl32.a" />
+			<Add library="lib/libopenal32.a" />
+			<Add library="lib/libfreetype.a" />
+			<Add library="lib/libjpeg.a" />
+			<Add library="lib/libwinmm.a" />
+			<Add library="lib/libgdi32.a" />
+			<Add library="lib/libwsock32.a" />
+			<Add library="lib/libkernel32.a" />
+			<Add library="lib/libstdlib.a" />
+			<Add library="lib/libstdc++.a" />
+			<Add library="lib/libz.a" />
+			<Add directory="lib" />
+		</Linker>
+		<Unit filename="CGI.cpp" />
+		<Unit filename="CGI.hpp" />
+		<Unit filename="FFFC.cpp" />
+		<Unit filename="FILE_FUNCTIONS.cpp" />
+		<Unit filename="FILE_FUNCTIONS.hpp" />
+		<Unit filename="THREADS.cpp" />
+		<Unit filename="THREADS.hpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
