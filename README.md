@@ -1262,9 +1262,6 @@ Minecraft BTE121 Holland tiles for use with Leaflet script(s)
 <img src="https://github.com/HakkaTjakka/NL_TILE_MAP/blob/main/source1.png" height="18" width="18">
 <br>
 </div>
-<br>
-<img src="https://github.com/HakkaTjakka/NL_TILE_MAP/blob/main/18/610/-1047/r.6103.-10461.png">  
-<img src="https://github.com/HakkaTjakka/NL_TILE_MAP/blob/main/18/611/-1047/r.6113.-10461.png">  
 <br>  
 <div>
 <img src="https://github.com/HakkaTjakka/NL_TILE_MAP/blob/main/18/609/-1047/r.6090.-10470.png" height="44" width="44">
@@ -1688,5 +1685,11 @@ Minecraft BTE121 Holland tiles for use with Leaflet script(s)
 <img src="https://github.com/HakkaTjakka/NL_TILE_MAP/blob/main/18/610/-1046/r.6109.-10451.png" height="44" width="44">
 <br>
 </div>
+<br>
+</div>
+<img src="https://github.com/HakkaTjakka/NL_TILE_MAP/blob/main/18/610/-1047/r.6103.-10461.png">  
+<img src="https://github.com/HakkaTjakka/NL_TILE_MAP/blob/main/18/610/-1047/r.6114.-10466.png">  
+<img src="https://github.com/HakkaTjakka/NL_TILE_MAP/blob/main/18/611/-1047/r.6113.-10461.png">  
+<div>
 </html>
 
