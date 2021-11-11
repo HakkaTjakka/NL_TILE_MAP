@@ -1688,7 +1688,7 @@ Minecraft BTE121 Holland tiles for use with Leaflet script(s)
 <br>
 </div>
 <img src="https://github.com/HakkaTjakka/NL_TILE_MAP/blob/main/18/610/-1047/r.6103.-10461.png">  
-<img src="https://github.com/HakkaTjakka/NL_TILE_MAP/blob/main/18/610/-1047/r.6014.-10466.png">  
+<img src="https://github.com/HakkaTjakka/NL_TILE_MAP/blob/main/18/610/-1047/r.6194.-10466.png">  
 <img src="https://github.com/HakkaTjakka/NL_TILE_MAP/blob/main/18/611/-1047/r.6113.-10461.png">  
 <div>
 </html>
