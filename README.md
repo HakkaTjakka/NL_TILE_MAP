@@ -1,6 +1,10 @@
 # NL_TILE_MAP
 Minecraft BTE121 Holland tiles for use with Leaflet script(s)
 
+https://github.com/HakkaTjakka/Leaflet-Minecraft-Region-Tiles-Map
+
+https://github.com/HakkaTjakka/PROJECT-CGI-BTE121-LEAFLET
+
 <html>
 <div>
 <img src="https://github.com/HakkaTjakka/NL_TILE_MAP/blob/main/source1.png" height="18" width="18">
