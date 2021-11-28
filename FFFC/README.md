@@ -1,5 +1,7 @@
 # FFFC
 
+(COPY OFF https://github.com/HakkaTjakka/FFFC)
+
 # ERROR: https://github.com/HakkaTjakka/FFFC/blob/17a69d0c82357dc0f156ef9a64f9639fdfa8a162/src/THREADS.cpp#L263
 
     if (!(image_buffer[m]->image = NULL)) delete image_buffer[m]->image; -->     if (!(image_buffer[m]->image == NULL)) delete image_buffer[m]->image;
