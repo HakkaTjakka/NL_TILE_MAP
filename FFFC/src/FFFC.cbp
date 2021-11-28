@@ -72,6 +72,7 @@
 			<Add option="-DFREEGLUT_STATIC" />
 			<Add option="-DGLEW_STATIC" />
 			<Add directory="F:/FFFC/" />
+			<Add directory="." />
 		</Compiler>
 		<Linker>
 			<Add option="-m64" />

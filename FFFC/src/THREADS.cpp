@@ -260,7 +260,7 @@ void clear_image_buffer() {
 }
 
 void clear_one_image_buffer(int m) {
-    if (!(image_buffer[m]->image = NULL)) delete image_buffer[m]->image;
+    if (!(image_buffer[m]->image == NULL)) delete image_buffer[m]->image;
     image_buffer[m]->image = NULL;
     image_buffer[m]->filename="";
     image_buffer[m]->out="";

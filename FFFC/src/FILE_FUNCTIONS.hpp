@@ -4,7 +4,8 @@
 struct file_list_struct {
     std::string filename;
 
-    bool operator < (const info_3d_struct &B) const
+//    bool operator < (const info_3d_struct &B) const
+    bool operator < (const file_list_struct &B) const
     {
         return filename < B.filename;
     }
