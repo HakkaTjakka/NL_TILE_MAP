@@ -1,4 +1,11 @@
 # FFFC
+
+# ERROR: https://github.com/HakkaTjakka/FFFC/blob/17a69d0c82357dc0f156ef9a64f9639fdfa8a162/src/THREADS.cpp#L263
+
+    if (!(image_buffer[m]->image = NULL)) delete image_buffer[m]->image; -->     if (!(image_buffer[m]->image == NULL)) delete image_buffer[m]->image;
+
+# AND: https://github.com/HakkaTjakka/FFFC/blob/17a69d0c82357dc0f156ef9a64f9639fdfa8a162/src/FILE_FUNCTIONS.hpp#L8
+
 Fast Threaded Image loader/converter (test phase)
 
 Porting the threaded image loader (used on MinecraftWorldEditor) to load images simultaniously with threading. (Test phase).
