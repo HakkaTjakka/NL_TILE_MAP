@@ -7,6 +7,10 @@ https://github.com/HakkaTjakka/PROJECT-CGI-BTE121-LEAFLET
 
 Demo: http://83.83.222.154/nl/
 
+Demo: http://83.83.222.154/web/nl/
+
+Demo: http://83.83.222.154/web/nl/index2.html
+
 <html>
 <div>
 <img src="https://github.com/HakkaTjakka/NL_TILE_MAP/blob/main/source1.png" height="18" width="18">
