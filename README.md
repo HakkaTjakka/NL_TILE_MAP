@@ -5,11 +5,9 @@ https://github.com/HakkaTjakka/Leaflet-Minecraft-Region-Tiles-Map
 
 https://github.com/HakkaTjakka/PROJECT-CGI-BTE121-LEAFLET
 
-Demo: http://83.83.222.154/nl/
+Demo: http://83.83.222.71/NL/
 
-Demo: http://83.83.222.154/web/nl/
-
-Demo: http://83.83.222.154/web/nl/index2.html
+Demo: http://83.83.222.71/NL/index2.html
 
 <html>
 <div>
